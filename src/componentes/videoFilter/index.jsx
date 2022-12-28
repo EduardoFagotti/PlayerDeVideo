@@ -15,7 +15,7 @@ export default function VideoFilter() {
     {
       type: "musica",
       foto: foto2,
-      name: "Carrilhao",
+      name: "Carrilhâo",
     },
     {
       type: "musica",
@@ -45,7 +45,7 @@ export default function VideoFilter() {
     {
       type: "musica",
       foto: foto2,
-      name: "Carrilhao",
+      name: "Carrilhão",
     },
     {
       type: "musica",
@@ -80,7 +80,7 @@ export default function VideoFilter() {
       <Container>
         <StyledButtons>
           <button onClick={allVideos}>Todos</button>
-          <button onClick={alterarMusic}>Musica</button>
+          <button onClick={alterarMusic}>Música</button>
           <button onClick={alterarStreet}>Rua</button>
         </StyledButtons>
         {listaVideos}
