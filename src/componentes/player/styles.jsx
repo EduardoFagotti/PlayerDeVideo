@@ -6,16 +6,27 @@ export const Container = styled.nav`
   background-color: #121214;
   align-items: center;
   text-align: center;
+  display: flex;
+
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+  }
 
   .video {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 75%;
+    margin-left: 10px;
+    margin-right: 10%;
+
+    /* margin-left: 5%; */
 
     @media screen and (max-width: 1200px) {
       width: 100%;
       margin-left: 0;
       margin-right: 0;
     }
+  }
+  .list {
+    color: white;
   }
 `;

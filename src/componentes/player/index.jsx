@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { DefaultPlayer as Video } from "react-html5video";
-import video from "../../assets/videos/video1.mp4";
+import video from "../../assets/videos/Carrilhão.mp4";
 import "react-html5video/dist/styles.css";
 import { Container } from "./styles";
+import VideoFilter from "../videoFilter";
 
 const VideoPlayer = () => {
   return (
     <Container>
-      <Video className="video">
+      <video className="video" controls>
         <source src={video} type="video/webm" />
-      </Video>
+      </video>
+      <VideoFilter className="list" />
     </Container>
   );
 };
