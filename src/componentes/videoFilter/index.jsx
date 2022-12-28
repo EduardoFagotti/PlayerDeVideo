@@ -15,7 +15,7 @@ export default function VideoFilter() {
     {
       type: "musica",
       foto: foto2,
-      name: "Carrilhâo",
+      name: "Carrilhão",
     },
     {
       type: "musica",
