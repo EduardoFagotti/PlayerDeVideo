@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Container, StyledButtons } from "./styles";
 import foto1 from "../../assets/poster/Bateria.foto.PNG";
 import foto2 from "../../assets/poster/Carrilhão.foto.PNG";
@@ -84,7 +84,6 @@ export default function VideoFilter() {
           <button onClick={alterarStreet}>Rua</button>
         </StyledButtons>
         {listaVideos}
-        {/* {filter} */}
       </Container>
     </>
   );

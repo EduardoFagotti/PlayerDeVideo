@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-import { DefaultPlayer as Video } from "react-html5video";
 import video from "../../assets/videos/Carrilhão.mp4";
 import "react-html5video/dist/styles.css";
 import { Container } from "./styles";
