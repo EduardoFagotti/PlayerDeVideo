@@ -70,7 +70,7 @@ export default function VideoFilter() {
 
   const listaVideos = filter.map((v) => (
     <div className="list">
-      <img className="foto" src={v.foto}></img>
+      <img alt="img do video" className="foto" src={v.foto}></img>
       <p> {v.name}</p>
     </div>
   ));
